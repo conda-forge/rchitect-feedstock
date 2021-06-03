@@ -1,5 +1,5 @@
 {% set name = "rchitect" %}
-{% set version = "0.3.30" %}
+{% set version = "0.3.31" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/rchitect-{{ version }}.tar.gz
-  sha256: 3b7e844bc0f2e88f694a1538fb38ffae8a89b127c84f29ebfbec10725fdee5ad
+  sha256: c6722c8fe533f7f27868ed8e8f7fc900b8e6ff55aaa3623631c99576fa392a08
 
 build:
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
