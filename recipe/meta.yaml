@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/rchitect-{{ version }}.tar.gz
-  sha256: c6722c8fe533f7f27868ed8e8f7fc900b8e6ff55aaa3623631c99576fa392a08
+  url: https://github.com/randy3k/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
+  sha256: d1dc9df2b17eac87242671eb7abb40873979b5e2110cfd4e86432d666d6a626f
 
 build:
   number: 0
