@@ -29,15 +29,15 @@ requirements:
     - cffi >=1.10.0
     - python
     - six >=1.9.0
-    - colorama  # [win and py < 38]
 
 test:
   imports:
     - rchitect
     - rchitect.reticulate
   commands:
-    - pip check
+    - pip check  # [not win]
   requires:
+    - colorama  # [win]
     - pip
 
 about:
