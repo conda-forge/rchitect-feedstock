@@ -30,6 +30,7 @@ requirements:
     - cffi >=1.10.0
     - python
     - six >=1.9.0
+    - colorama  # [win and py < 38]
 
 test:
   imports:
