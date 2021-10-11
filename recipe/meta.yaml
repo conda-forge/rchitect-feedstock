@@ -1,5 +1,5 @@
 {% set name = "rchitect" %}
-{% set version = "0.3.32" %}
+{% set version = "0.3.33" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/randy3k/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 85dbfd71e7d72764d77786a49845085e64ae18b234c84162c72002475be5115f
+  sha256: be682945d981327e2650f1aae2a3584d66fce3563158d60c7a941577b69a983b
 
 build:
   number: 0
