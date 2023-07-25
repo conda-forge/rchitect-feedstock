@@ -1,11 +1,11 @@
-About rchitect
-==============
+About rchitect-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/rchitect-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/randy3k/rchitect
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/rchitect-feedstock/blob/main/LICENSE.txt)
 
 Summary: Mapping R API to Python
 
