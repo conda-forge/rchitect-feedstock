@@ -27,6 +27,7 @@ requirements:
     - python
   run:
     - cffi >=1.10.0
+    - packaging >=23.0
     - python
     - six >=1.9.0
 
