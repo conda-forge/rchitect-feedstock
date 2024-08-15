@@ -1,5 +1,5 @@
 {% set name = "rchitect" %}
-{% set version = "0.4.6" %}
+{% set version = "0.4.7" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/randy3k/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: e26d2e97dbaa86b237a83cc839f0055ba24db5fbdcdcbdf5e6b25f63679edf01
+  sha256: 8283d0e026d1d38a4cf67983d58a7537cb1dc82d78d9c057b45ad8786a654057
 
 build:
   number: 0
@@ -20,6 +20,7 @@ requirements:
     - cross-python_{{ target_platform }}     # [build_platform != target_platform]
     - cffi                                   # [build_platform != target_platform]
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
   host:
     - cffi >=1.10.0
     - pip
