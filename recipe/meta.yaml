@@ -26,6 +26,7 @@ requirements:
     - pip
     - pytest-runner
     - python
+    - setuptools
   run:
     - cffi >=1.10.0
     - packaging >=23.0
