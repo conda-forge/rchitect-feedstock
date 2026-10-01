@@ -24,19 +24,17 @@ requirements:
   host:
     - cffi >=1.10.0
     - pip
-    - pytest-runner
     - python
-    - setuptools
+    - setuptools >=61.0
+    - wheel
   run:
     - cffi >=1.10.0
     - packaging >=23.0
     - python
-    - six >=1.9.0
 
 test:
   imports:
     - rchitect
-    - rchitect.reticulate
   commands:
     - pip check  # [not win]
   requires:
